@@ -8,4 +8,4 @@ CMD ["/init"]
 
 COPY ./install-scripts/geo-install-packages.R /home/rstudio/geo-install-packages.R
 
-RUN Rscript /home/rstudio/geo-install-packages.R
+# RUN Rscript /home/rstudio/geo-install-packages.R
